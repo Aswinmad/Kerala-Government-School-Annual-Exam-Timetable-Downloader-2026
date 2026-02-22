@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    background-image: url(../images/dots2.png);
+}
+
+.par{
+    display: block;
+    font-size: 8vh;
+    width: 1200px;
+    margin-left: 5vh;
+    margin-top: 23vh;
+    font-family: "Google Sans", sans-serif;
+    font-weight: 500;
+}
+
+.desc{
+    display: block;
+    margin-left: 5vh;
+    margin-top:2vh;
+    font-size: 3vh;
+    width: 1000px;
+    font-family: "Google Sans", sans-serif;
+    color: rgb(100, 100, 100);
+}   
+
+.container{
+    margin-left: 4.5vh;
+    margin-top: 4vh;
+}
+
+.butt{
+    border-style: solid;    
+    background-color: white;
+    padding: 2vh 4vh;
+    font-size: 2vh;
+    font-family: "Google Sans", sans-serif;
+    border-radius: 4px;
+    margin-left: 4px;
+    cursor: pointer;
+    transition: color ease 0.2s, background-color ease 0.2s, padding ease 0.2s, font-size ease 0.2s;
+}
+
+.butt:hover{
+    background-color: black;
+    color: white;
+}
+
+.butt:active{
+    font-size: medium;
+}

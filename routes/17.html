@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LP,UP</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&display=swap" rel="stylesheet">    
+   
+    <style>
+        .header-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: relative;
+            width: 100%;
+            box-sizing: border-box;
+            border: 1px solid rgb(182, 182, 182);
+            padding-bottom: 15px;
+            border-radius: 35px;
+        }
+
+        .backbut {
+            display: inline-flex; 
+            align-items: center; 
+            background-color: rgba(0, 0, 0, 0.068);
+            padding: 5px 15px 5px 10px; 
+            text-decoration: none;
+            color: black;
+            border-radius: 20px;
+            transition: background-color 0.3s, box-shadow 0.3s;
+            margin-top: 1.5vh;
+            margin-left: 1.5vh;
+            z-index: 2;
+        }
+
+        .back {
+            width: 3vh;
+            margin-right: 8px;
+            padding-left: 5px;
+        }
+
+        .back-text {
+            font-family: 'Google Sans', sans-serif; 
+            font-size: 2.3vh;
+            margin: 0;
+            padding: 5px 5px 5px 0;
+        }
+
+        .backbut:hover {
+            background-color: rgba(0, 0, 0, 0.12);
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+        }
+
+        .title {
+            font-family: 'Google Sans', sans-serif;
+            font-size: 2.8vh;
+            font-weight: 500;
+            color: #000000;
+            text-decoration: none;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            margin-top: 1.5vh;
+            white-space: nowrap;
+            z-index: 1;
+        }
+
+        .table {
+            width: 100%;
+            max-height: 100vh;
+            object-fit: contain;
+            height: auto;
+            display: block;
+        }
+
+        .downbut {
+            margin-right: 1.5vh;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header-container">
+        <a href="../index.html" class="backbut"> 
+            <img src= "../images/back icon.png" alt="Back Button" class="back">
+            <span class="back-text">Back</span>
+        </a>
+
+        <span class="title">LP / UP Table</span>
+
+        <div class="downbut">
+            <a href="../images/1-7.png" download="1-7.png" class="backbut"> 
+                <img src="../images/download.png" alt="Download Button" class="back">
+                <span class="back-text">Download</span>
+            </a>
+        </div>
+    </div>
+    
+    <img src="../images/1-7.png" alt="Lp and Up timetable" class="table">
+</body>
+</html>
