@@ -1,6 +1,6 @@
 <h1 align="center">
   Kerala-Government-School-Annual-Exam-Timetables-2026
-  (https://kerala-government-school-annual-exa.vercel.app/)
+  (https://kerala-government-school-annual-exa.vercel.app/](https://kerala-government-school-annual-exa-inky.vercel.app/)
 </h1>
 
 <p align="center">
